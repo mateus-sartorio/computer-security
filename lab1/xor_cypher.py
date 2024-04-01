@@ -1,6 +1,3 @@
-from os import urandom
-
-# generates 8-bit key
 def genkey(length: int) -> bytes:
     return str.encode("".join([chr(ord("A"))*length]))
 

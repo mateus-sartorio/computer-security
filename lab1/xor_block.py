@@ -14,7 +14,7 @@ def decrypt(cipher_text: bytes, key: bytes) -> bytes:
     decrypted_text = b''
 
     for i in range(0, len(cipher_text), 16):
-        cipher_block = cipher_text[i: i+16]
+        cipher_block = cipher_text[i:i+16]
         decrypted_text += xor_block(cipher_block, key * (len(cipher_block)//len(key)))
 
     return decrypted_text
@@ -42,7 +42,6 @@ encrypted_msg = b'\x12\'&73#/! b$/a\x01./175#"#.bsrsvns'
 first_byte = 65
 # find_second_byte(encrypted_msg, first_byte)
 second_byte = 66
-
 
 decrypted = decrypt(encrypted_msg, bytes([first_byte, second_byte]))
 print(decrypted.decode("utf8"))
