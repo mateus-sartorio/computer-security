@@ -1,0 +1,3 @@
+[submodule "computer-security-assignment"]
+	path = computer-security-assignment
+	url = git@github.com:mateus-sartorio/computer-security-assignment.git
