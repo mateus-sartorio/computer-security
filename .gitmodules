@@ -1,3 +1,12 @@
 [submodule "computer-security-assignment"]
 	path = computer-security-assignment
 	url = git@github.com:mateus-sartorio/computer-security-assignment.git
+[submodule "cartesi-project/descentralized-pik-with-blockchain-backend"]
+	path = cartesi-project/descentralized-pik-with-blockchain-backend
+	url = git@github.com:mateus-sartorio/descentralized-pik-with-blockchain-backend.git
+[submodule "cartesi-project/frontend"]
+	path = cartesi-project/frontend
+	url = git@github.com:mateus-sartorio/descentralized-pik-with-blockchain-frontend.git
+[submodule "cartesi-project/backend"]
+	path = cartesi-project/backend
+	url = git@github.com:mateus-sartorio/descentralized-pik-with-blockchain-backend.git
