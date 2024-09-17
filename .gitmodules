@@ -10,3 +10,6 @@
 [submodule "cartesi-project/backend"]
 	path = cartesi-project/backend
 	url = git@github.com:mateus-sartorio/descentralized-pik-with-blockchain-backend.git
+[submodule "ssh-honeypot"]
+	path = ssh-honeypot
+	url = git@github.com:mateus-sartorio/ssh-honeypot.git
